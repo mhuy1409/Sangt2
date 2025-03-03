@@ -16,5 +16,10 @@ namespace ktgiuaki
         {
             InitializeComponent();
         }
+
+        private void Username_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
