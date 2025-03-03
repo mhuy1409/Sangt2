@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace ktgiuaki
 {
-    public partial class Form1 : Form
+    public partial class textlogin : Form
     {
-        public Form1()
+        public textlogin()
         {
             InitializeComponent();
         }
 
         private void Username_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
