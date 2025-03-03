@@ -38,45 +38,68 @@
             // Username
             // 
             this.Username.AutoSize = true;
-            this.Username.Location = new System.Drawing.Point(152, 39);
+            this.Username.Location = new System.Drawing.Point(159, 130);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(70, 16);
+            this.Username.Size = new System.Drawing.Size(92, 16);
             this.Username.TabIndex = 0;
-            this.Username.Text = "Username";
+            this.Username.Text = "tên đăng nhập";
             this.Username.Click += new System.EventHandler(this.Username_Click);
             // 
             // textboxusername
             // 
+<<<<<<< HEAD
             this.textboxusername.Location = new System.Drawing.Point(248, 36);
             this.textboxusername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(161, 22);
             this.textboxusername.TabIndex = 1;
+=======
+            this.txtUsername.Location = new System.Drawing.Point(294, 130);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(200, 22);
+            this.txtUsername.TabIndex = 1;
+>>>>>>> d076de9a636e48af310b1ccaf90157063ebe0fb5
             // 
             // textboxmatkhau
             // 
+<<<<<<< HEAD
             this.textboxmatkhau.Location = new System.Drawing.Point(248, 94);
             this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textboxmatkhau.Name = "textboxmatkhau";
             this.textboxmatkhau.Size = new System.Drawing.Size(161, 22);
             this.textboxmatkhau.TabIndex = 2;
+=======
+            this.txtpassword.Location = new System.Drawing.Point(294, 181);
+            this.txtpassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(200, 22);
+            this.txtpassword.TabIndex = 2;
+>>>>>>> d076de9a636e48af310b1ccaf90157063ebe0fb5
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(156, 97);
+            this.label1.Location = new System.Drawing.Point(173, 187);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Password";
+            this.label1.Text = "mật khẩu";
             // 
             // button1
             // 
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(248, 166);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 42);
+=======
+            this.button1.Location = new System.Drawing.Point(294, 226);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(200, 42);
+>>>>>>> d076de9a636e48af310b1ccaf90157063ebe0fb5
             this.button1.TabIndex = 4;
-            this.button1.Text = "login";
+            this.button1.Text = "Đăng Nhập";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
